@@ -3,29 +3,43 @@
   text-align: center;
   background-image: url("logo.png");
   background-size: cover;
+  width: 15vw;
 }
 
+#navbar {
+  width: 100vw;
+  margin: 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.nav-section {
+  height: 15vh;
+  padding-top: 6vh;
+  width: 15vw;
+  text-align: center;
+  &:hover {
+    background-color: white;
+    text-decoration: none;
+    color: blue;
+  }
+}
 
 nav{
   background-color: rgb(59, 89, 152);
   height: 15vh;
 }
 
-.navbar-section {
-    width: 200px;
-}
 
 .form-inline {
-  justify-content: space-around;
-  text-align: center;
+  display: flex;
   a {
-  align-items: center;
-  text-align: center;
   text-decoration: none;
   color: white;
-    &:hover {
-      background-color: white;
-      text-decoration: none;
-    }
+  height: 15vh;
+  &:hover{
+    text-decoration: none;
   }
+}
 }

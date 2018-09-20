@@ -1,5 +1,11 @@
 .carousel {
   width: 500px;
+  background-color: #fafafa;
+  padding: 20px;
+}
+
+.carousel-card {
+  background-color: black;
 }
 
 .block {
@@ -9,5 +15,4 @@
   width: 500px;
   background-size: cover;
   border-radius: 5px;
-  border: solid white;
 }
