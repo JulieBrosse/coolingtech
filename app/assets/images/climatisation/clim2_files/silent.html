@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!-- saved from url=(0265)https://a.lw.skype.com/Login/silent/MsaCallback?site_name=lw.skype.com&response_type=postmessage&client_id=919866&partner=999&redirect_uri=https%3a%2f%2foutlook.live.com%2fmail%2finbox&state=silentloginsdk_1537277772726&session_id=YEhlQD8rcIUy5sWK1dcZ&wa=wsignin1.0 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+
+    <title>Skype</title>
+
+    <script type="text/javascript">
+        var message = "";
+
+        window.hashFragment = (function () {
+            "use strict";
+
+            return {
+                hashParams: {},
+
+                parseHashParams: function (windowObj) {
+                    var hash,
+                        hashPairs,
+                        hashPair,
+                        delimiterIndex,
+                        key,
+                        value,
+                        ind;
+
+                    windowObj = windowObj ? windowObj : window;
+                    hash = windowObj.location.hash.replace("#", "");
+                    this.hashParams = {};
+                    hashPairs = hash.split("&");
+                    for (ind in hashPairs) {
+                        hashPair = hashPairs[ind];
+                        delimiterIndex = hashPair.indexOf("=");
+                        if (delimiterIndex >= 0) {
+                            key = decodeURIComponent(hashPair.substring(0, delimiterIndex)).toLowerCase();
+                            value = decodeURIComponent(hashPair.substring(delimiterIndex + 1));
+                            this.hashParams[key] = value;
+                        }
+                    }
+                },
+                getHashParam: function (key) {
+                    return this.hashParams[key.toLowerCase()];
+                }
+            };
+        })();
+
+        (function () {
+            var target = "https://outlook.live.com/mail/inbox",
+                messageObject = {"skypetoken":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjEwMSIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1MzcyNzc3ODEsImV4cCI6MTUzNzM2NDE3Mywic2t5cGVpZCI6Imp1bGllLmJyb3NzZSIsInNjcCI6OTU4LCJjc2kiOiIxNTM3Mjc3NzczIiwiY2lkIjoiYWM3MmMzZWYwODVjZDM1YiIsImFhdCI6MTUzNTAyNjQ0OH0.kUzFk6rZCcn4Ix3lHQPwwGUk9mSB9jtqFPGAhflYUhpGXjxqh7TYX9ENWGGQz0gxDcKtbAHChXwRNRVa9eSmtRpdGr85tDhnXhSkB9IcLihvafCIviiy5UZ6iJBEVDVJhS1llN9vsjU6s0yAag__yvYe2V3HaDQqsm7DcXebsdz3KKy5GziCI0oRf5XGeSNgj4ffSAs4x-7Bwc3Tn-rbmgCC21hLmxDfV4RM-K68KO-ubuQW777LCVI6EUXYEZx2n6OQnuJFsdxMZvSJ8fPwhHUFkhPUbfNGGtKV73P1KmXxvZXbNKtrooVs7FbbdFmyUC-ImXNwFR4Ox5N1iNBP1A","expires_in":"86391","skypeid":"julie.brosse","state":"silentloginsdk_1537277772726"};
+
+            window.hashFragment.parseHashParams();
+            var error = window.hashFragment.getHashParam("error");
+            var errorDescription = window.hashFragment.getHashParam("error_description");
+
+            if (!!error && error.length) {
+                messageObject.error = error;
+                messageObject.error_description = errorDescription;
+            }
+            
+            var message = JSON.stringify(messageObject);
+
+            if (!!window.opener) {                              // Send postMessage from a Popup and close window
+                window.opener.postMessage(message, target);
+                window.close();
+            } else if (!!window.parent) {                       // Send postMessage from an Iframe
+                window.parent.postMessage(message, target);
+            }
+        }());
+    </script>
+</head>
+<body>
+
+</body></html>

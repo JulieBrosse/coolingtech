@@ -1,11 +1,9 @@
-<div id="navbar-logo">
-</div>
 
 <nav class="form-inline">
-  <%= link_to "Contact", "pages/contact", class: "white" %>
-  <%= link_to "Énergie renouvelable", "pages/energie_renouvelable", class: "#" %>
-  <%= link_to "Eau chaude & Sanitaires", "pages/eau_chaude_sanitaires", class: "#" %>
-  <%= link_to "Chauffage", "pages/chauffage", class: "#" %>
-  <%= link_to "Climatisation", "pages/climatisation", class: "#" %>
-  <%= link_to "Accueil", "", class: "#" %>
+  <%= image_tag "logo.png", id: "navbar-logo" %>
+  <%= link_to "Énergie renouvelable", "pages/energie_renouvelable", class:"navbar-section" %>
+  <%= link_to "Eau chaude & Sanitaires", "pages/eau_chaude_sanitaires", class:"navbar-section" %>
+  <%= link_to "Chauffage", "pages/chauffage", class: "navbar-section" %>
+  <%= link_to "Climatisation", "pages/climatisation", class:"navbar-section"%>
+  <%= link_to "Contact", "pages/contact", class:"navbar-section" %>
 </nav>

@@ -1,4 +1,21 @@
 .container-layout {
-  justify-content: center;
-  width: 70%;
+  h1 {
+    color: rgb(32, 32, 32);
+    text-align: center;
+  }
 }
+
+.container-page {
+  padding: 30px;
+  justify-content: space-between;
+}
+
+.container-images {
+  display: flex;
+}
+
+.row {
+  border-radius: 5px;
+  justify-content: space-between;
+}
+

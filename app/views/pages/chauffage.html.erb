@@ -1,2 +1,53 @@
-<h1>Pages#chauffage</h1>
-<p>Find me in app/views/pages/chauffage.html.erb</p>
+<div class="container-layout">
+  <div class="wrapper-page">
+    <div class="script-title ">
+      <h1>Chauffages</h1>
+    </div>
+    <div class="container-page">
+      <div class="container">
+        <div class="row">
+          <div class="script-description col-xs">
+            <p>Il existe différents types de chauffages et différents types d’émetteurs de chaleurs. COOlINGTECTH 31 est spécialisé dans l’installation de Pompe à chaleur : un savoir faire reconnu et référencé RGE qualiPac (entreprise Reconnue Gérant de l’Environnement).
+            Afin de vous faire profiter du crédit d’impôts pour tous vos projets de rénovations.</p>
+            <p>Une gamme composé d’une production par PAC ou par chaudière gaz a condensation.
+
+            Les gammes d’émetteurs de chaleur sont:
+            <ul>
+            <li>* lilancher chauffant</li>
+            <li>* radiateur</li>
+            </ul>
+
+            Pour tous vos projets faites appel a nos services</p>
+          </div>
+            <div id="carousel-card col-xs" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-card" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-card" data-slide-to="1"></li>
+                <li data-target="#carousel-card" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <%= image_tag "chauffage/sol1.png", class:"block" %>
+                </div>
+                <div class="carousel-item">
+                  <%= image_tag "chauffage/sol2.png", class:"block" %>
+                </div>
+                <div class="carousel-item">
+                  <img class="block" src="..." alt="Third slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carousel-card" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carousel-card" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

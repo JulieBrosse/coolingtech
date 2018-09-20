@@ -1,19 +1,26 @@
 #navbar-logo {
-  width: 20%;
-  height: 70px;
+  height: 15vh;
   text-align: center;
   background-image: url("logo.png");
+  background-size: cover;
 }
+
 
 nav{
   background-color: rgb(59, 89, 152);
-  height: 70px;
+  height: 15vh;
+}
+
+.navbar-section {
+    width: 200px;
 }
 
 .form-inline {
-  display: flex;
   justify-content: space-around;
+  text-align: center;
   a {
+  align-items: center;
+  text-align: center;
   text-decoration: none;
   color: white;
     &:hover {
