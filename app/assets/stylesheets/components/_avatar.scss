@@ -1,0 +1,22 @@
+.avatar-value {
+  border-radius: 50%;
+  background-color: #000099;
+  color: white;
+  width: 230px;
+  height: 230px;
+  text-align: center;
+  padding-top: 80px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.avatar-list-inline {
+  padding: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 80px;
+  padding-left: 0px;
+  margin-bottom: 0px;
+}

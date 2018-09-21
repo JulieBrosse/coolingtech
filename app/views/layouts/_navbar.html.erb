@@ -1,21 +1,29 @@
+<nav class="id="navbar">
+  <div class="row navbar-blue">
+    <div class="col-xs-2">
+      <%= image_tag "logo.png", id: "navbar-logo" %>
+    </div>
+    <div class="nav-section col-xs-1">
+      <%= link_to "Contact", "../pages/contact", class:"navbar-section" %>
+    </div>
+  </div>
 
-<nav class="form-inline row", id="navbar">
-  <div class="col-xs-2">
-    <%= image_tag "logo.png", id: "navbar-logo" %>
-  </div>
-  <div class="nav-section col-xs-1">
-    <%= link_to "Énergie renouvelable", "../pages/energie_renouvelable"%>
-  </div>
-  <div class="nav-section col-xs-1">
-    <%= link_to "Eau chaude & Sanitaires", "../pages/eau_chaude_sanitaires" %>
-  </div>
-  <div class="nav-section col-xs-1">
-    <%= link_to "Chauffage", "../pages/chauffage", class: "navbar-section" %>
-  </div>
-  <div class="nav-section col-xs-1">
-    <%= link_to "Climatisation", "../pages/climatisation", class:"navbar-section"%>
-  </div>
-  <div class="nav-section col-xs-1">
-    <%= link_to "Contact", "../pages/contact", class:"navbar-section" %>
+  <div class="row form-inline">
+    <div>
+    </div>
+    <div class=nav-sections>
+      <div class="nav-section col-xs-1">
+        <%= link_to "Énergie renouvelable", "../pages/energie_renouvelable"%>
+      </div>
+      <div class="nav-section col-xs-1">
+        <%= link_to "Eau chaude & Sanitaires", "../pages/eau_chaude_sanitaires" %>
+      </div>
+      <div class="nav-section col-xs-1">
+        <%= link_to "Chauffage", "../pages/chauffage", class: "navbar-section" %>
+      </div>
+      <div class="nav-section col-xs-1">
+        <%= link_to "Climatisation", "../pages/climatisation", class:"navbar-section"%>
+      </div>
+    </div>
   </div>
 </nav>
