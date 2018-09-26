@@ -1,0 +1,55 @@
+<div class="wrapper-background">
+  <nav class="id="navbar">
+    <div class="row">
+      <div>
+        <%= image_tag "logo.png", id: "navbar-logo" %>
+      </div>
+    </div>
+
+    <div class="row form-inline">
+      <div>
+      </div>
+      <div class=nav-sections>
+        <div class="nav-section">
+          <%= image_tag "energie_renouvelable.png", class:"section-icon" %>
+          <%= link_to "Énergie renouvelable", "../pages/energie_renouvelable"%>
+        </div>
+        <div class="nav-section">
+          <%= image_tag "eau_chaude.png", class:"section-icon" %>
+          <%= link_to "Eau chaude & Sanitaires", "../pages/eau_chaude_sanitaires" %>
+        </div>
+        <div class="nav-section">
+          <%= image_tag "chauffage.png", class:"section-icon" %>
+          <%= link_to "Chauffage", "../pages/chauffage", class: "navbar-section" %>
+        </div>
+        <div class="nav-section">
+          <%= image_tag "climatisation.png", class:"section-icon" %>
+          <%= link_to "Climatisation", "../pages/climatisation", class:"navbar-section"%>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div>
+    <div class="content-page">
+      <div class="content-section">
+        <h3>TEST CHAUFFAGE</h3>
+        <div class="content-description-chauffage">
+          <p>Il existe différents types de chauffages et différents types d’émetteurs de chaleurs. <strong>COOLINGTECTH 31</strong> est spécialisé dans l’installation de Pompe à chaleur : un savoir faire reconnu et référencé RGE qualiPac (entreprise Reconnue Gérant de l’Environnement).
+          Afin de vous faire profiter du crédit d’impôts pour tous vos projets de rénovations.
+          Une gamme composé d’une production par PAC ou par chaudière gaz a condensation.
+          Les gammes d’émetteurs de chaleur sont:
+            <ul>
+            <li> Lilancher chauffant</li>
+            <li> Radiateur</li>
+            </ul>
+            Pour tous vos projets, faites appel a nos services!
+          </p>
+        <div class="images">
+          <%= image_tag "chauffage/sol1.png", class:"image" %>
+          <%= image_tag "chauffage/sol2.png", class:"image" %>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>

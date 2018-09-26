@@ -1,22 +1,18 @@
-.image-1 {
-  height: 200px;
-  width: 300px;
+.image {
+  width: 100px;
+  height: 100px;
   object-fit: cover;
-}
-
-.image-2 {
-  height: 200px;
-  width: 300px;
-  object-fit: cover;
-}
-
-.image-3 {
-  height: 200px;
-  width: 300px;
-  object-fit: cover;
+  padding: 10px;
 }
 
 #picture {
   width: 100px;
   height: 100px;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 80vw;
 }

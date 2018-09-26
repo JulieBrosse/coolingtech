@@ -1,56 +1,14 @@
-.script-title {
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  color: rgb(60, 60, 60);
-}
-
-.script-description-red {
-  background-color: rgb(250, 250, 250);
-  border-radius: 5px;
-  padding: 20px 30px 10px 30px;
-  width: 45vw;
-  text-align: justify;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 20px;
-  border-left: solid rgb(255, 69, 0);
-  border-bottom: solid rgb(255, 69, 0);
-}
-
-.script-description-grey {
-  background-color: rgb(250, 250, 250);
-  border-radius: 5px;
-  padding: 20px 30px 10px 30px;
-  width: 45vw;
-  text-align: justify;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 20px;
-  border-left: solid rgb(173, 173, 173);
-  border-bottom: solid rgb(173, 173, 173);
-}
-
-.script-description-green {
-  background-color: rgb(250, 250, 250);
-  border-radius: 5px;
-  padding: 20px 30px 10px 30px;
-  width: 45vw;
-  text-align: justify;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 20px;
-  border-left: solid rgb(60,179,113);
-  border-bottom: solid rgb(60,179,113);
-}
-
 h1 {
-  border-top: rgb(0, 0, 153);
-  color: grey;
-  padding: 5vh;
+  text-align: center;
+  color: white;
+  font-size: 100px;
+  font-weight: 600 ;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.script-welcome {
+h3 {
   text-align: center;
-  font-size: 40px;
-  font-family: 'Montserrat', sans-serif;
-  p {
-    margin: 0px;
-  }
+  margin-bottom: 0px;
+  padding-bottom: 30px;
+  font-size: 200px;
 }
