@@ -16,3 +16,20 @@
   height: 50px;
   width: 80vw;
 }
+
+.image2 {
+  top: 0px;
+  right: 0px;
+}
+
+.img2 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 45%;
+  height: 90%;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px rgb(200, 200, 200);
+
+}

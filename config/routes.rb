@@ -7,7 +7,6 @@ Rails.application.routes.draw do
   get 'pages/contact'
   get 'pages/test'
   get 'pages/chauffage_test'
-  get 'pages/about_test'
   root to: 'pages#about'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

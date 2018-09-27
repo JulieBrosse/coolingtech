@@ -1,13 +1,31 @@
-<div class="container-about">
-  <div class="script-welcome">
-    <p>L'expertise de <strong>Coolingtech</strong></p>
-    <p>au service de votre <strong>confort</strong></p>
-  </div>
-  <div>
-    <ul class=avatar-list-inline>
-      <li class="avatar-value">value1</li>
-      <li class="avatar-value">value2</li>
-      <li class="avatar-value">value3</li>
-    </ul>
-  </div>
-</div>
+<div class="wrapper-background">
+  <nav class="id="navbar">
+    <div class="row">
+      <div>
+        <%= image_tag "logo.png", id: "navbar-logo" %>
+      </div>
+    </div>
+
+    <div class="row form-inline">
+      <div>
+      </div>
+      <div class=nav-sections>
+        <div class="nav-section">
+          <%= image_tag "energie_renouvelable.png", class:"section-icon" %>
+          <%= link_to "Énergie renouvelable", "../pages/energie_renouvelable"%>
+        </div>
+        <div class="nav-section">
+          <%= image_tag "eau_chaude.png", class:"section-icon" %>
+          <%= link_to "Eau chaude & Sanitaires", "../pages/eau_chaude_sanitaires" %>
+        </div>
+        <div class="nav-section">
+          <%= image_tag "chauffage.png", class:"section-icon" %>
+          <%= link_to "Chauffage", "../pages/chauffage", class: "navbar-section" %>
+        </div>
+        <div class="nav-section">
+          <%= image_tag "climatisation.png", class:"section-icon" %>
+          <%= link_to "Climatisation", "../pages/climatisation", class:"navbar-section"%>
+        </div>
+      </div>
+    </div>
+  </nav>
