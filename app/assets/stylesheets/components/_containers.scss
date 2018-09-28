@@ -11,7 +11,7 @@
   color: white;
   font-weight: bold;
   justify-content: center;
-  text-align: left;
+  text-align: justify;
 
 }
 
@@ -27,11 +27,13 @@
   padding-top: 30px;
   padding-left: 5%;
   padding-right: 5%;
+  padding-bottom: 30px;
   background-color: rgba(255, 255, 255, 0.8);
   color: rgb(1, 4, 57);
   justify-content: center;
   text-align: left;
   border-radius: 3px;
+  font-family: 'Rajdhani', sans-serif;
 
   .content-section {
     height: 100%;
@@ -40,20 +42,30 @@
   .content-description {
     width: 50%;
   }
+
+  div {
+    padding-top: 10px;
+  }
 }
 
-.content-description-chauffage {
-  content-justify: center;
-  text-align: center;
-}
 
 .content-description-chauffage2 {
   width: 50%;
   height: 100%;
+  div {
+    text-align: justify;
+  }
 }
 
 .content-section2 {
   position: relative;
   height: 80%;
-  padding-bottom: 5%;
+}
+
+.script-content-welcome {
+  padding-left: 20%;
+  padding-right: 20%;
+  font-family: 'Rajdhani', sans-serif;
+  color: white;
+  text-align: center;
 }

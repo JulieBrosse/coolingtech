@@ -1,14 +1,29 @@
-h1 {
+span {
   text-align: center;
-  color: white;
-  font-size: 100px;
+  color: rgb(55, 99, 166);
+  font-size: 50px;
   font-weight: 600 ;
   font-family: 'Open Sans Condensed', sans-serif;
+  margin: 0px;
+  padding-top: 5px;
 }
 
-h3 {
+.script-welcome {
   text-align: center;
-  margin-bottom: 0px;
-  padding-bottom: 30px;
-  font-size: 200px;
+  color: rgb(240, 240, 240);
+  font-size: 50px;
+  font-weight: 600 ;
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin: 0px;
+  padding-top: 5px;
 }
+
+.script-page {
+  margin-right: 20%;
+  margin-left: 20%;
+  border: solid white;
+  border-radius: 5px;
+  padding-top: 5%;
+  padding-left: 5px;
+}
+

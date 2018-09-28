@@ -22,9 +22,11 @@
   flex-direction: column;
   align-items: center;
   height: 12vh;
-  width: 10vw;
+  width: 5vw;
   text-align: center;
   font-size: 10px;
+  margin-left: 3vw;
+  margin-right: 2vw;
 }
 
 .nav-sections {
@@ -42,17 +44,12 @@ nav{
   width: 100vw;
   display: flex;
   opacity: 100%;
-  height: 50%;
   a {
   text-decoration: none;
   height: 15vh;
   vertical-align: bottom;
   color: white;
   font-weight: bold;
-    &:hover{
-      text-decoration: none;
-      font: solid rgb(200, 200, 200);
-    }
   }
 }
 
