@@ -7,14 +7,10 @@
 }
 
 #navbar {
-  width: 100vw;
   margin: 0px;
   display: flex;
   justify-content: space-around;
-  .row {
-    margin-right: 0px;
-    margin-left: 0px;
-  }
+
 }
 
 .nav-section {
@@ -31,19 +27,21 @@
 
 .nav-sections {
   display: flex;
-  justify-content: space-around;
 }
 
 
 nav{
   height: 24vh;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4);
+  width: 100vw;
+  margin: 0px;
 }
 
 
 .form-inline {
-  width: 100vw;
   display: flex;
   opacity: 100%;
+  margin: 0px;
   a {
   text-decoration: none;
   height: 15vh;

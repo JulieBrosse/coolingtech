@@ -1,14 +1,43 @@
-<div class="container-layout">
-  <div class="wrapper-page">
-    <div class="script-title ">
-      <h1>Énergie Renouvelable</h1>
+
+<div class="wrapper-background">
+  <nav class="id="navbar">
+    <div class="row">
+      <div>
+        <%= image_tag "logo.png", id: "navbar-logo" %>
+      </div>
     </div>
-    <div class="container-page">
-      <div class="container">
-        <div class="row">
-          <div class="script-description-green col-xs">
-            <p>
-            Le Photovoltaïque est actuellement en pleine expansion et produire son énergie est devenue la norme.
+
+    <div class="row form-inline">
+      <div>
+      </div>
+      <div class=nav-sections>
+        <div class="nav-section">
+          <%= image_tag "energie_renouvelable.png", class:"section-icon" %>
+          <%= link_to "Énergie renouvelable", "../pages/energie_renouvelable"%>
+        </div>
+        <div class="nav-section">
+          <%= image_tag "eau_chaude.png", class:"section-icon" %>
+          <%= link_to "Eau chaude & Sanitaires", "../pages/eau_chaude_sanitaires" %>
+        </div>
+        <div class="nav-section">
+          <%= image_tag "chauffage.png", class:"section-icon" %>
+          <%= link_to "Chauffage", "../pages/chauffage", class: "navbar-section" %>
+        </div>
+        <div class="nav-section">
+          <%= image_tag "climatisation.png", class:"section-icon" %>
+          <%= link_to "Climatisation", "../pages/climatisation", class:"navbar-section"%>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="content-rest">
+    <div class="content-page">
+      <div class="content-section">
+        <span>ÉNERGIE RENOUVELABLE</span>
+        <div class="content-section2">
+          <div class="content-description-chauffage2">
+            <div>            Le Photovoltaïque est actuellement en pleine expansion et produire son énergie est devenue la norme.
             Pour cela vous avez le choix, 3 proposions s’offrent  a vous:
             <ul>
             <li>Produire pour votre propre consommation énergétique (auto-consommation)</li>
@@ -18,30 +47,12 @@
             Pour l’installation,la maintenance et le depannage d’installation photovoltaïque faites appelle a notre savoir-faire
 
             Nos partenaires photovoltaïques: METTRE LOGO SMA
-
-          </div>
-            <div id="carousel-card col-xs" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carousel-card" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-card" data-slide-to="1"></li>
-                <li data-target="#carousel-card" data-slide-to="2"></li>
-              </ol>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                </div>
-              </div>
-              <a class="carousel-control-prev" href="#carousel-card" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carousel-card" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
             </div>
           </div>
-        </div>
+          <div class= "image2">
+            <%= image_tag "chauffage/sol1.png", class:"img2" %>
+          </div>
+      </div >
       </div>
     </div>
   </div>
-</div>

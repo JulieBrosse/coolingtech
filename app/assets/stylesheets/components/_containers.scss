@@ -21,7 +21,7 @@
 }
 
 .content-page {
-  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 10px 20px 20px 10px rgba(0, 0, 0, 0.4);
   display: flex;
   width: 80vw;
   padding-top: 30px;
@@ -34,6 +34,8 @@
   text-align: left;
   border-radius: 3px;
   font-family: 'Rajdhani', sans-serif;
+  height: 70vh;
+  border: solid rgb(55, 99, 166);
 
   .content-section {
     height: 100%;
@@ -41,6 +43,10 @@
   }
   .content-description {
     width: 50%;
+  }
+
+  .content-rest {
+    padding-top: 20px;
   }
 
   div {
