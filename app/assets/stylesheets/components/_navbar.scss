@@ -20,16 +20,18 @@
   height: 12vh;
   width: 5vw;
   text-align: center;
-  font-size: 10px;
+  font-size: 13px;
   margin-left: 3vw;
   justify-content: space-around;
   color: white;
   padding-bottom: 12px;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: bold;
   img {
-  width: 35px;
+  width: 45px;
   object-fit: contain;
     &:hover {
-      width: 50px;
+      width: 55px;
     }
   }
 }
@@ -41,7 +43,7 @@
 
 nav{
   height: 24vh;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
   width: 100vw;
   margin: 0px;
 }
