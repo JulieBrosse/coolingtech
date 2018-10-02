@@ -22,6 +22,16 @@
   text-align: center;
   font-size: 10px;
   margin-left: 3vw;
+  justify-content: space-around;
+  color: white;
+  padding-bottom: 12px;
+  img {
+  width: 35px;
+  object-fit: contain;
+    &:hover {
+      width: 50px;
+    }
+  }
 }
 
 .nav-sections {
@@ -48,14 +58,5 @@ nav{
   vertical-align: bottom;
   color: white;
   font-weight: bold;
-  }
-}
-
-
-.section-icon {
-  width: 35px;
-  object-fit: contain;
-  &:hover {
-    width: 50px;
   }
 }

@@ -10,20 +10,20 @@
       </div>
       <div class=nav-sections>
         <div class="nav-section">
-          <%= image_tag "energie_renouvelable.png", class:"section-icon" %>
-          <%= link_to "Énergie renouvelable", "../pages/energie_renouvelable"%>
+          <%= link_to image_tag("energie_renouvelable.png"), pages_energie_renouvelable_path %>
+          Éco Énergie
         </div>
         <div class="nav-section">
-          <%= image_tag "eau_chaude.png", class:"section-icon" %>
-          <%= link_to "Eau chaude & Sanitaires", "../pages/eau_chaude_sanitaires" %>
+          <%= link_to image_tag("eau_chaude.png"), pages_eau_chaude_sanitaires_path %>
+          Eau chaude
         </div>
         <div class="nav-section">
-          <%= image_tag "chauffage.png", class:"section-icon" %>
-          <%= link_to "Chauffage", "../pages/chauffage", class: "navbar-section" %>
+          <%= link_to image_tag("climatisation.png"), pages_climatisation_path %>
+          Climatisation
         </div>
         <div class="nav-section">
-          <%= image_tag "climatisation.png", class:"section-icon" %>
-          <%= link_to "Climatisation", "../pages/climatisation", class:"navbar-section"%>
+          <%= link_to image_tag("chauffage.png"), pages_chauffage_path %>
+          Chauffages
         </div>
       </div>
     </div>
