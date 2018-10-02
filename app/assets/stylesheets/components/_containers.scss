@@ -21,7 +21,6 @@
 
 .content-page {
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
-  display: flex;
   width: 80vw;
   padding-top: 30px;
   padding-left: 5%;
@@ -32,7 +31,7 @@
   justify-content: center;
   text-align: left;
   border-radius: 3px;
-  height: 70vh;
+  position: relative;
   border: solid rgba(55, 99, 166, 0.7);
 
   .content-section {
@@ -45,12 +44,12 @@
     div {
       text-align: justify;
       font-family: 'Rajdhani', sans-serif;
-
     }
   }
 
   .content-rest {
     padding-top: 80px;
+    position: absolute
   }
 
   div {
@@ -61,6 +60,7 @@
 
 .content-section2 {
   position: relative;
+  display: flex;
   height: 80%;
 }
 
