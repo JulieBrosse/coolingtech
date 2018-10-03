@@ -13,6 +13,17 @@
 
 }
 
+.nav-first-row {
+  display: flex;
+  justify-content: space-between;
+  p {
+    padding-top: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+  }
+}
+
 .nav-section {
   display: flex;
   flex-direction: column;
@@ -51,5 +62,5 @@ nav{
 
 .form-inline {
   opacity: 100%;
-  margin: 0px;
+  margin-right: 0px;
 }
