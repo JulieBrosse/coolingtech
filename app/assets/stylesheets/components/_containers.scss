@@ -16,25 +16,30 @@
 
 }
 
+.content-rest {
+  padding-top: 20px;
+    display: flex;
+  flex-direction: column;
+}
+
 .content-section {
   height: 60%;
   padding-bottom: 10%;
 }
 
 .content-page {
+  min-height: 70vh;
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
   width: 80vw;
-  padding-top: 30px;
   padding-left: 5%;
   padding-right: 5%;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   background-color: rgba(255, 255, 255, 0.8);
   color: rgb(1, 4, 57);
-  justify-content: center;
   text-align: left;
   border-radius: 3px;
-  position: relative;
   border: solid rgba(55, 99, 166, 0.7);
+}
 
   .content-section {
     height: 100%;
@@ -43,22 +48,10 @@
   .content-description {
     width: 50%;
     height: 100%;
-    div {
-      text-align: justify;
-      font-family: 'Rajdhani', sans-serif;
-    }
-  }
-
-  .content-rest {
-    padding-top: 80px;
-    position: absolute
-  }
-
-  div {
     padding-top: 10px;
+    text-align: justify;
+    font-family: 'Rajdhani', sans-serif;
   }
-}
-
 
 .content-section2 {
   position: relative;
