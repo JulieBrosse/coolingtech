@@ -32,3 +32,15 @@ span {
   }
 }
 
+.script-content-welcome {
+  img {
+    width: 30px;
+    object-fit: contain;
+  }
+  li {
+    font-weight: bold;
+    list-style: none;
+    padding-top: 10px;
+  }
+}
+
