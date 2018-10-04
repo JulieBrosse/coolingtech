@@ -1,16 +1,17 @@
 #navbar-logo {
-  height: 100%;
   text-align: center;
-  background-image: url("logo.png");
   background-size: cover;
-  width: 30%;
+  width: 20%;
+  &:hover {
+  box-shadow: 2px 2px 2px 2px rgba(30, 30, 30, 0.4);
+  }
 }
 
 .nav-first-row {
   display: flex;
-  justify-content: space-around;
   p {
     padding-top: 5px;
+    padding-right: 10px;
     color: white;
     font-weight: bold;
     font-size: 16px;
@@ -47,7 +48,6 @@
 
 nav{
   height: 24vh;
-  box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
   width: 100vw;
   margin: 0px;
   margin: 0px;
@@ -59,4 +59,5 @@ nav{
 .form-inline {
   opacity: 100%;
   margin-right: 0px;
+  box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
 }
