@@ -46,6 +46,25 @@ span {
   }
 }
 
+.script-page-contact {
+  background-color: rgba(55, 99, 166, 0.3);
+  margin-right: 20%;
+  margin-left: 20%;
+  border: solid white;
+  border-radius: 5px;
+  padding-left: 5px;
+  height: 90%;
+  box-shadow: 10px 20px 20px 10px rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 20, 0.3);
+  p {
+    font-family: 'Rajdhani', sans-serif;
+    padding-top: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+  }
+}
+
 .script-content-welcome {
   font-size: 20px;
   img {
@@ -58,4 +77,3 @@ span {
     padding-top: 10px;
   }
 }
-
