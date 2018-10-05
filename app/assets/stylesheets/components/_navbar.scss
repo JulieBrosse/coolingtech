@@ -9,12 +9,17 @@
 
 .nav-first-row {
   display: flex;
-  p {
+  a {
     padding-top: 5px;
     padding-right: 10px;
     color: white;
     font-weight: bold;
     font-size: 16px;
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+      color: white;
+    }
   }
 }
 
@@ -54,7 +59,7 @@ nav{
   display: flex;
   justify-content: space-around;
   background-color: rgba(55, 99, 166, 0.3);
-  box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 8px 6px -6px rgba(50, 50, 50, 0.4);
 
 }
 
