@@ -33,10 +33,10 @@
   font-family: 'Rajdhani', sans-serif;
   font-weight: bold;
   img {
-  width: 45px;
+  width: 40px;
   object-fit: contain;
     &:hover {
-      width: 55px;
+      width: 50px;
     }
   }
 }
@@ -53,11 +53,13 @@ nav{
   margin: 0px;
   display: flex;
   justify-content: space-around;
+  background-color: rgba(55, 99, 166, 0.3);
+  box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
+
 }
 
 
 .form-inline {
   opacity: 100%;
   margin-right: 0px;
-  box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
 }
