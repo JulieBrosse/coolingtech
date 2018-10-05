@@ -6,17 +6,25 @@
     <div class="script-page">
       <div class="script-contact">
       </div>
-      <div class="script-content-welcome">
-        <ul>
-          <li><%= link_to cl_image_tag("fb.png", :cloud_name => 'julie'), 'https://www.facebook.com/SASUcoolingtech31/' %>SASUcoolingtech31</li>
-          <li><%= cl_image_tag("mail.png", :cloud_name => 'julie')%> coolingtech31@gmail.com</li>
-          <li><%= cl_image_tag("tel2.png", :cloud_name => 'julie')%> 06.62.58.86.00</li>
-          <li><%= cl_image_tag("home.png", :cloud_name => 'julie')%> SASU Coolingtech31<br/> 7 impasse jacky thomas <br/>
-81370 Saint-Sulpice-La-Pointe <br/></li>
-        </ul>
+      <div class="contact-details">
+        <div class="script-content-welcome">
+          <ul>
+            <li><%= link_to 'https://www.facebook.com/SASUcoolingtech31/' do %>
+              <%= image_tag "fb.png" %>
+            <% end %>SASUcoolingtech31</li>
+            <li><%= image_tag "mail.png" %> coolingtech31@gmail.com</li>
+            <li><%= image_tag "tel2.png" %> 06.62.58.86.00</li>
+            <li><%= image_tag "home.png" %> SASU Coolingtech31<br/> 7 impasse jacky thomas <br/>
+  81370 Saint-Sulpice-La-Pointe <br/></li>
+          </ul>
 
+        </div>
+
+        <div class="contact-form">
+          <%= render 'contacts/form' %>
+        </div>
       </div>
+
     </div>
   </div>
 </div>
-

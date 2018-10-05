@@ -1,0 +1,25 @@
+<div class="row">
+  <div class="col-6">
+    <div class="form-new-contact">
+      <%= simple_form_for @contact do |c| %>
+        <div class="form-field text-center">
+          <%= c.input :fullname, label: "Nom Prénom", required: :true %>
+        </div>
+        <div class="form-field text-center">
+          <%= c.input :phone_number, label: "Téléphone", required: :true %>
+        </div>
+        <div class="form-field text-center">
+          <%= c.input :email, label: "Email", required: :true %>
+        </div>
+        <div class="form-field text-center">
+          <%= c.input :message, label: "Votre message", required: :true %>
+        </div>
+        <div class="form-field text-center">
+          <%= c.input :file, label: "Ajouter un document (.jpg / .pdf)", required: :true %>
+        </div>
+
+        <div class="text-center"><%= c.submit 'Envoyer', class: 'btn btn-basic btn-blue', data: { disable_with: "Envoi en cours..." } %></div>
+      <% end %>
+    </div>
+  </div>
+</div>
