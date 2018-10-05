@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Nouvelle demande de contact sur le site Groupe Abadie</h1>
+    <p>
+      Nom Prénom: <%= @contact.fullname %>
+      <br>
+      Email : <%= @contact.email %>
+      <br>
+      Téléphone : <%= @contact.phone_number %>
+      <br>
+      Document : <%= link_to 'fichier', full_url_for(@contact.file) %>
+      <br>
+      Message :
+      <br>
+      <%= @contact.message %>
+
+    </p>
+  </body>
+</html>
