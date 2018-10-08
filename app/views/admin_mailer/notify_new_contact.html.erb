@@ -12,7 +12,9 @@
       <br>
       Téléphone : <%= @contact.phone_number %>
       <br>
-      Document : <%= link_to 'fichier', full_url_for(@contact.file) %>
+      <% if @contact.file.attached? %>
+        Document : <%= link_to 'fichier', full_url_for(@contact.file) %>
+      <%= end %>
       <br>
       Message :
       <br>
