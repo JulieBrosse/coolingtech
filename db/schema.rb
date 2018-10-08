@@ -45,4 +45,11 @@ ActiveRecord::Schema.define(version: 2018_10_05_134519) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "mails", force: :cascade do |t|
+    t.string "object"
+    t.string "email"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
 end
