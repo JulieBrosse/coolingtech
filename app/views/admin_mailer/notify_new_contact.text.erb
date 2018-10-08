@@ -5,7 +5,9 @@ Nouvelle demande de contact sur le site Groupe Abadie
 Nom Prénom: <%= @contact.fullname %>
 Email : <%= @contact.email %>
 Téléphone : <%= @contact.phone_number %>
-Document : <%= link_to 'fichier', full_url_for(@contact.file) %>
+<% if @contact.file.attached? %>
+  Document : <%= link_to 'fichier', full_url_for(@contact.file) %>
+<%= end %>
 
 Message :
 
