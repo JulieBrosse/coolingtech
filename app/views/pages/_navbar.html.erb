@@ -1,5 +1,6 @@
 <nav>
   <div class="nav-first-row">
+    <%= link_to cl_image_tag("logo2.png", :cloud_name => 'julie', id: "navbar-logo"),root_path %>
     <p><%= link_to "06.62.58.86.00", pages_contact_path %><br/>
     <%= link_to "coolingtech31@gmail.com", pages_contact_path %></p>
   </div>
@@ -9,15 +10,19 @@
     </div>
     <div class=nav-sections>
       <div class="nav-section">
+        <%= link_to cl_image_tag("Coolingtech/energie_renouvelable.png", :cloud_name => 'julie'), pages_energie_renouvelable_path %>
         Éco Énergie
       </div>
       <div class="nav-section">
+        <%= link_to cl_image_tag("eau-chaude.png", :cloud_name => 'julie'), pages_eau_chaude_sanitaires_path %>
         Eau chaude
       </div>
       <div class="nav-section">
+        <%= link_to cl_image_tag("clim.png", :cloud_name => 'julie'), pages_climatisation_path %>
         Climatisation
       </div>
       <div class="nav-section">
+        <%= link_to cl_image_tag("chauffage.png", :cloud_name => 'julie'), pages_chauffage_path %>
         Chauffage
       </div>
     </div>
