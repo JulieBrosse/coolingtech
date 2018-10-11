@@ -1,20 +1,28 @@
 #navbar-logo {
+  position: absolute;
+  top: 5px;
+  left: 5px;
   text-align: center;
   background-size: cover;
-  width: 20%;
+  width: 28%;
   &:hover {
   box-shadow: 2px 2px 2px 2px rgba(30, 30, 30, 0.4);
   }
 }
 
 .nav-first-row {
+  position: relative;
   display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: right;
+  justify-content: center;
+  padding-top: 5px;
+  padding-right: 10px;
+  font-weight: bold;
+  font-size: 20px;
   a {
-    padding-top: 5px;
-    padding-right: 10px;
     color: white;
-    font-weight: bold;
-    font-size: 16px;
     text-decoration: none;
     &:hover {
       text-decoration: none;
@@ -34,6 +42,7 @@
   margin-left: 3vw;
   justify-content: space-around;
   color: white;
+  padding-top: 15px;
   padding-bottom: 12px;
   font-family: 'Rajdhani', sans-serif;
   font-weight: bold;
@@ -59,12 +68,14 @@ nav{
   display: flex;
   justify-content: space-around;
   background-color: rgba(55, 99, 166, 0.3);
-  box-shadow: 0 8px 6px -6px rgba(50, 50, 50, 0.4);
 
 }
 
 
 .form-inline {
+  padding-top: 5px;
   opacity: 100%;
   margin-right: 0px;
+  box-shadow: 0 8px 6px -6px rgba(50, 50, 50, 0.4);
+
 }
