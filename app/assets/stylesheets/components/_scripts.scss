@@ -67,12 +67,12 @@ span {
 
 .script-content-welcome {
   font-size: 20px;
+  text-align: left;
   img {
     width: 30px;
     object-fit: contain;
   }
-  li {
-    font-weight: bold;
+  ul {
     list-style: none;
     padding-top: 10px;
   }
