@@ -86,3 +86,10 @@ img.icon {
   height: 45px;
   object-fit: contain;
 }
+
+.script-coolingtech {
+  &:hover {
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+  }
+}
